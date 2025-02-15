@@ -1,7 +1,8 @@
 <h1 align="center">UsingHybridOrm - EF Core ve Dapper Hibrit Kullanımı</h1>
 
 <p align="center">
-  Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönlerini bir araya getirerek dinamik, performanslı ve esnek bir veri erişim çözümü sunar. 
+Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönlerini bir araya getirerek, 
+<strong>N-tier mimarisi</strong> ile dinamik, performanslı ve esnek bir veri erişim çözümü sunar.
 </p>
 
 ---
@@ -11,7 +12,7 @@
 <p>Bu proje, <strong>Entity Framework Core</strong> ve <strong>Dapper</strong>'ın hibrit kullanımını göstermektedir.</p>
 <ul>
   <li>EF Core, güçlü ORM yetenekleri ile karmaşık veri işlemlerinde esneklik sağlar.</li>
-  <li>Dapper, hafif ve hızlı sorgulama yetenekleri ile performans gereksinimlerini karşılar.</li>
+  <li>Dapper, minimal ve hızlı sorgulama yetenekleri ile performans gereksinimlerini karşılar.</li>
 </ul>
 
 ---
@@ -31,6 +32,7 @@
 
 <pre>
 📁 UsingHybridOrm
+│ 
 ├── 📁 UsingHybridOrm.DataAccess
 │   ├── 📁 Abstract
 │   │   ├── 📁 Base
@@ -86,7 +88,6 @@
 │   ├── Program.cs
 </pre>
 
-
 ---
 
 <h2>🛠️ Kullanılan Teknolojiler</h2>
@@ -98,5 +99,3 @@
   <li><strong>Autofac</strong> (Dependency Injection)</li>
   <li><strong>MSSQL</strong> (Veritabanı)</li>
 </ul>
-
-
