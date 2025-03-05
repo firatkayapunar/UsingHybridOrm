@@ -31,9 +31,9 @@ Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönl
 <h2>📂 Proje Yapısı</h2>
 
 <pre>
-📁 UsingHybridOrm
+📦 UsingHybridOrm
 │ 
-├── UsingHybridOrm.DataAccess
+├── 📄 UsingHybridOrm.DataAccess
 │   ├── Dependencies
 │   ├── 📁 Abstract
 │   │   ├── 📁 Base
@@ -57,19 +57,21 @@ Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönl
 │   │   │   ├── 📁 Context
 │   │   │   │   ├── HybridUsingOrmDbContext.cs
 │   │   │   ├── EfDepartmentRepository.cs
-├── UsingHybridOrm.Entities
+│  
+├── 📄 UsingHybridOrm.Entities
 │   ├── Dependencies
 │   ├── 📁 Concrete
 │   │   ├── BaseEntity.cs
 │   │   ├── Department.cs
 │   ├── 📁 DTO
-│       ├── 📁 Department
-│           ├── DepartmentCreateDTO.cs
-│           ├── DepartmentDeleteDTO.cs
-│           ├── DepartmentDTO.cs
-│           ├── DepartmentUpdateDTO.cs
-│       ├── Result.cs
-├── UsingHybridOrm.Services
+│   │   ├── 📁 Department
+│   │   │   ├── DepartmentCreateDTO.cs
+│   │   │   ├── DepartmentDeleteDTO.cs
+│   │   │   ├── DepartmentDTO.cs
+│   │   │   ├── DepartmentUpdateDTO.cs
+│   ├── Result.cs
+│   
+├── 📄 UsingHybridOrm.Services
 │   ├── Dependencies
 │   ├── 📁 Abstract
 │   │   ├── IDepartmentService.cs
@@ -83,10 +85,11 @@ Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönl
 │   │   ├── DalKey.cs
 │   │   ├── DepartmentRepositoryResolver.cs
 │   ├── 📁 Validation
-│       ├── 📁 FluentValidation
-│       │    ├── DepartmentValidator.cs
-│       ├── ValidationTool.cs
-├── 📁 UsingHybridOrm.UI
+│   │   ├── 📁 FluentValidation
+│   │   │    ├── DepartmentValidator.cs
+│   │   ├── ValidationTool.cs
+│   
+├── 📄 UsingHybridOrm.UI
 │   ├── Dependencies
 │   ├── Form1.cs
 │   ├── Program.cs
