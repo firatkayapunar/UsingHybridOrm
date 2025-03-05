@@ -1,4 +1,4 @@
-<h1 align="center">UsingHybridOrm - EF Core ve Dapper Hibrit Kullanımı</h1>
+<h1 align="center">EF Core ve Dapper Hibrit Kullanımı</h1>
 
 <p align="center">
 Bu proje, <strong>EF Core</strong> ve <strong>Dapper</strong>'ın güçlü yönlerini bir araya getirerek, 
